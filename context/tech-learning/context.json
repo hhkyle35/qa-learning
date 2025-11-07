@@ -1,0 +1,47 @@
+{
+  "project": "Tech Skills Learning",
+  "lastUpdated": "2024-01-01T00:00:00Z",
+  "status": "active",
+  "currentFocus": "",
+  "currentSkill": "",
+  "recentActivity": [],
+  "learningPaths": {
+    "selenium": {
+      "status": "not_started",
+      "currentLesson": "",
+      "completedLessons": [],
+      "practiceProjects": []
+    },
+    "appium": {
+      "status": "not_started",
+      "currentLesson": "",
+      "completedLessons": [],
+      "practiceProjects": []
+    },
+    "sql": {
+      "status": "not_started",
+      "currentLesson": "",
+      "completedLessons": [],
+      "practiceProjects": []
+    }
+  },
+  "currentTasks": [],
+  "completedTasks": [],
+  "codeExamples": [],
+  "questions": [],
+  "nextSteps": [],
+  "importantNotes": [],
+  "relatedFiles": [
+    "../docs/learning/tech/index.md",
+    "../docs/learning/tech/selenium.md",
+    "../docs/learning/tech/appium.md",
+    "../docs/learning/tech/sql.md",
+    "../docs/learning/tech/notes.md"
+  ],
+  "resources": {
+    "courses": [],
+    "practicePlatforms": [],
+    "documentation": []
+  }
+}
+

@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl https://api.anthropic.com/v1/messages )",
+      "Bash(echo $SHELL)",
+      "Bash(echo $ANTHROPIC_API_KEY)",
+      "Bash(unset:*)",
+      "Bash(mkdocs:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python3:*)",
+      "Bash(source venv/bin/activate)",
+      "Bash(pip install:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(gh:*)",
+      "Bash(brew install:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

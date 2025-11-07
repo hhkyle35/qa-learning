@@ -1,0 +1,29 @@
+{
+  "project": "Farm E-commerce & Marketing",
+  "lastUpdated": "2024-01-01T00:00:00Z",
+  "status": "active",
+  "currentFocus": "",
+  "recentActivity": [],
+  "currentTasks": [],
+  "completedTasks": [],
+  "blockers": [],
+  "keyDecisions": [],
+  "nextSteps": [],
+  "importantNotes": [],
+  "relatedFiles": [
+    "../docs/projects/farm/index.md",
+    "../docs/projects/farm/ecommerce.md",
+    "../docs/projects/farm/marketing.md",
+    "../docs/projects/farm/notes.md"
+  ],
+  "ecommerce": {
+    "platform": "",
+    "products": [],
+    "recentOrders": []
+  },
+  "marketing": {
+    "activeCampaigns": [],
+    "channels": []
+  }
+}
+

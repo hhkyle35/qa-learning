@@ -1,0 +1,75 @@
+site_name: Knowledge Base
+site_description: Personal knowledge base for projects and learning
+site_author: Kyle Erickson
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+nav:
+  - Home: index.md
+  - Project Context System: project-context-system.md
+  - Adding Context Guide: adding-context-guide.md
+  - Claude Integration: claude-integration.md
+  - Projects:
+    - NourishRx:
+      - Overview: projects/nourishrx/index.md
+      - Notes: projects/nourishrx/notes.md
+      - Tasks: projects/nourishrx/tasks.md
+    - Farm E-commerce & Marketing:
+      - Overview: projects/farm/index.md
+      - E-commerce: projects/farm/ecommerce.md
+      - Marketing: projects/farm/marketing.md
+      - Notes: projects/farm/notes.md
+  - Learning:
+    - Accounting & Tax:
+      - Overview: learning/accounting/index.md
+      - Concepts: learning/accounting/concepts.md
+      - Resources: learning/accounting/resources.md
+      - Notes: learning/accounting/notes.md
+    - Claude Code / Tech Skills:
+      - Overview: learning/tech/index.md
+      - Selenium: learning/tech/selenium.md
+      - Appium: learning/tech/appium.md
+      - SQL: learning/tech/sql.md
+      - General Notes: learning/tech/notes.md
+  - Templates: templates.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+

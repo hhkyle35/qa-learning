@@ -1,0 +1,27 @@
+{
+  "project": "Accounting & Tax Learning",
+  "lastUpdated": "2024-01-01T00:00:00Z",
+  "status": "active",
+  "currentFocus": "",
+  "currentTopic": "",
+  "recentActivity": [],
+  "completedLessons": [],
+  "currentLessons": [],
+  "practiceProblems": [],
+  "questions": [],
+  "keyConcepts": [],
+  "nextSteps": [],
+  "importantNotes": [],
+  "relatedFiles": [
+    "../docs/learning/accounting/index.md",
+    "../docs/learning/accounting/concepts.md",
+    "../docs/learning/accounting/resources.md",
+    "../docs/learning/accounting/notes.md"
+  ],
+  "resources": {
+    "courses": [],
+    "books": [],
+    "websites": []
+  }
+}
+
