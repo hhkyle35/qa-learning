@@ -2,6 +2,8 @@
 
 A personal knowledge base built with MkDocs for managing multiple projects and learning resources.
 
+**Live Site**: https://hhkyle35.github.io/qa-learning/
+
 ## Projects Included
 
 - **NourishRx**: Startup project documentation
@@ -11,17 +13,23 @@ A personal knowledge base built with MkDocs for managing multiple projects and l
 
 ## Setup
 
-1. Install dependencies:
+1. Create and activate a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Serve locally:
+3. Serve locally:
 ```bash
 mkdocs serve
 ```
 
-3. Open in browser:
+4. Open in browser:
 ```
 http://127.0.0.1:8000
 ```
@@ -35,21 +43,39 @@ mkdocs build
 
 The site will be built in the `site/` directory.
 
-## Deployment Options
+## Deployment
 
-### GitHub Pages
-1. Install `mkdocs gh-deploy` plugin: `pip install mkdocs-git-revision-date-localized-plugin`
-2. Deploy: `mkdocs gh-deploy`
+### Automatic Deployment (Recommended)
 
-### Netlify
-1. Connect your repository to Netlify
-2. Build command: `mkdocs build`
-3. Publish directory: `site`
+This repository is configured with **GitHub Actions** for automatic deployment:
 
-### Vercel
-1. Connect your repository to Vercel
-2. Build command: `mkdocs build`
-3. Output directory: `site`
+- **Every push to `main`** automatically deploys to GitHub Pages
+- **No manual steps required** - just commit and push your changes
+- **View your site at**: https://hhkyle35.github.io/qa-learning/
+
+### Manual Deployment
+
+To deploy manually from your local machine:
+
+```bash
+source venv/bin/activate
+mkdocs gh-deploy
+```
+
+This builds the site and pushes it to the `gh-pages` branch.
+
+## Making Updates
+
+1. **Edit markdown files** in the `docs/` directory
+2. **Preview locally** with `mkdocs serve`
+3. **Commit and push** to deploy:
+   ```bash
+   git add .
+   git commit -m "Update documentation"
+   git push
+   ```
+4. **Wait ~1 minute** for GitHub Actions to deploy
+5. **View changes** at https://hhkyle35.github.io/qa-learning/
 
 ## Project Context System
 
